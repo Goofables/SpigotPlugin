@@ -1,0 +1,1208 @@
+git version 2.14.3 (Apple Git-98)
+BuildTools
+unconfigured@null.spigotmc.org
+Attempting to build version: 'latest' use --rev <version> to override
+Found version
+{
+	"name": "1534",
+	"description": "Jenkins build 1534",
+	"refs": {
+		"BuildData": "a9c4523879abc011821f06283dd468c67c3b0097",
+		"Bukkit": "02f0647216dfe7515e3d7fa75a618faf6f010a7c",
+		"CraftBukkit": "7e94e65a1ca93e86dbc2eed3cca77c8a9ed8c102",
+		"Spigot": "c3093efafc5eab1ea62a8a57aa47f28f5ea85d03"
+	},
+	"toolsVersion": 47
+}
+
+Pulling updates for /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/BuildData/.git
+Successfully fetched updates!
+Checked out: a9c4523879abc011821f06283dd468c67c3b0097
+Pulling updates for /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/.git
+Successfully fetched updates!
+Checked out: 02f0647216dfe7515e3d7fa75a618faf6f010a7c
+Pulling updates for /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/.git
+Successfully fetched updates!
+Checked out: 7e94e65a1ca93e86dbc2eed3cca77c8a9ed8c102
+Pulling updates for /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/.git
+Successfully fetched updates!
+Checked out: c3093efafc5eab1ea62a8a57aa47f28f5ea85d03
+Attempting to build Minecraft with details: VersionInfo(minecraftVersion=1.12.2, accessTransforms=bukkit-1.12.2.at, classMappings=bukkit-1.12.2-cl.csrg, memberMappings=bukkit-1.12.2-members.csrg, packageMappings=package.srg, minecraftHash=71728ed3fbd0acd1394bf3ade2649a5c, decompileCommand=java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 {0} {1}, serverUrl=https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar)
+Found good Minecraft hash (71728ed3fbd0acd1394bf3ade2649a5c)
+Found good Minecraft hash (71728ed3fbd0acd1394bf3ade2649a5c)
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install-file (default-cli) @ standalone-pom ---
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/work/mapped.cf6b1333.jar to /Users/gfshupe01/.m2/repository/org/spigotmc/minecraft-server/1.12.2-SNAPSHOT/minecraft-server-1.12.2-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.305 s
+[INFO] Finished at: 2018-03-08T14:07:51-07:00
+[INFO] Final Memory: 8M/155M
+[INFO] ------------------------------------------------------------------------
+Applying CraftBukkit Patches
+Backing up NMS dir
+Patching with Advancement.patch
+Patching with AdvancementDataPlayer.patch
+Patching with AdvancementRewards.patch
+Patching with Advancements.patch
+Patching with Block.patch
+Patching with BlockButtonAbstract.patch
+Patching with BlockCactus.patch
+Patching with BlockCake.patch
+Patching with BlockCauldron.patch
+Patching with BlockChorusFlower.patch
+Patching with BlockCocoa.patch
+Patching with BlockCommand.patch
+Patching with BlockConcretePowder.patch
+Patching with BlockCrops.patch
+Patching with BlockDaylightDetector.patch
+Patching with BlockDiodeAbstract.patch
+Patching with BlockDispenser.patch
+Patching with BlockDoor.patch
+Patching with BlockDragonEgg.patch
+Patching with BlockDropper.patch
+Patching with BlockEnderPortal.patch
+Patching with BlockFire.patch
+Patching with BlockFlowing.patch
+Patching with BlockFluids.patch
+Patching with BlockGrass.patch
+Patching with BlockIce.patch
+Patching with BlockJukeBox.patch
+Patching with BlockLeaves.patch
+Patching with BlockLever.patch
+Patching with BlockMagma.patch
+Patching with BlockMinecartDetector.patch
+Patching with BlockMobSpawner.patch
+Patching with BlockMonsterEggs.patch
+Patching with BlockMushroom.patch
+Patching with BlockMycel.patch
+Patching with BlockNetherWart.patch
+Patching with BlockOre.patch
+Patching with BlockPiston.patch
+Patching with BlockPlant.patch
+Patching with BlockPortal.patch
+Patching with BlockPoweredRail.patch
+Patching with BlockPressurePlateAbstract.patch
+Patching with BlockPressurePlateBinary.patch
+Patching with BlockPressurePlateWeighted.patch
+Patching with BlockPumpkin.patch
+Patching with BlockRedstoneLamp.patch
+Patching with BlockRedstoneOre.patch
+Patching with BlockRedstoneTorch.patch
+Patching with BlockRedstoneWire.patch
+Patching with BlockReed.patch
+Patching with BlockSapling.patch
+Patching with BlockShulkerBox.patch
+Patching with BlockSkull.patch
+Patching with BlockSnow.patch
+Patching with BlockSnowBlock.patch
+Patching with BlockSoil.patch
+Patching with BlockStationary.patch
+Patching with BlockStem.patch
+Patching with BlockTallPlant.patch
+Patching with BlockTNT.patch
+Patching with BlockTrapdoor.patch
+Patching with BlockTripwire.patch
+Patching with BlockTripwireHook.patch
+Patching with BlockVine.patch
+Patching with BlockWaterLily.patch
+Patching with ChatBaseComponent.patch
+Patching with ChatModifier.patch
+Patching with Chunk.patch
+Patching with ChunkProviderGenerate.patch
+Patching with ChunkProviderServer.patch
+Patching with ChunkRegionLoader.patch
+Patching with ChunkSection.patch
+Patching with CommandBlockListenerAbstract.patch
+Patching with CommandDebug.patch
+Patching with CommandExecute.patch
+Patching with CommandGamemode.patch
+Patching with CommandGamerule.patch
+Patching with CommandSpreadPlayers.patch
+Patching with CommandTeleport.patch
+Patching with CommandTp.patch
+Patching with Container.patch
+Patching with ContainerAnvil.patch
+Patching with ContainerBeacon.patch
+Patching with ContainerBrewingStand.patch
+Patching with ContainerChest.patch
+Patching with ContainerDispenser.patch
+Patching with ContainerEnchantTable.patch
+Patching with ContainerFurnace.patch
+Patching with ContainerHopper.patch
+Patching with ContainerHorse.patch
+Patching with ContainerMerchant.patch
+Patching with ContainerPlayer.patch
+Patching with ContainerShulkerBox.patch
+Patching with ContainerWorkbench.patch
+Patching with CraftingManager.patch
+Patching with CrashReport.patch
+Patching with CustomFunction.patch
+Patching with CustomFunctionData.patch
+Patching with DamageSource.patch
+Patching with DataInspectorBlockEntity.patch
+Patching with DataPaletteBlock.patch
+Patching with DataWatcher.patch
+Patching with DedicatedServer.patch
+Patching with DispenseBehaviorItem.patch
+Patching with DispenseBehaviorProjectile.patch
+Patching with DispenserRegistry.patch
+Patching with DragonControllerManager.patch
+Patching with Enchantment.patch
+Patching with EnchantmentFrostWalker.patch
+Patching with EnchantmentThorns.patch
+Patching with Entity.patch
+Patching with EntityAgeable.patch
+Patching with EntityAnimal.patch
+Patching with EntityAreaEffectCloud.patch
+Patching with EntityArmorStand.patch
+Patching with EntityArrow.patch
+Patching with EntityBoat.patch
+Patching with EntityChicken.patch
+Patching with EntityCow.patch
+Patching with EntityCreature.patch
+Patching with EntityCreeper.patch
+Patching with EntityDamageSourceIndirect.patch
+Patching with EntityEgg.patch
+Patching with EntityEnderCrystal.patch
+Patching with EntityEnderDragon.patch
+Patching with EntityEnderman.patch
+Patching with EntityEnderPearl.patch
+Patching with EntityEnderSignal.patch
+Patching with EntityEvokerFangs.patch
+Patching with EntityExperienceOrb.patch
+Patching with EntityFallingBlock.patch
+Patching with EntityFireball.patch
+Patching with EntityFireworks.patch
+Patching with EntityFishingHook.patch
+Patching with EntityGhast.patch
+Patching with EntityHanging.patch
+Patching with EntityHorseAbstract.patch
+Patching with EntityHorseChestedAbstract.patch
+Patching with EntityHuman.patch
+Patching with EntityInsentient.patch
+Patching with EntityIronGolem.patch
+Patching with EntityItem.patch
+Patching with EntityItemFrame.patch
+Patching with EntityLargeFireball.patch
+Patching with EntityLeash.patch
+Patching with EntityLightning.patch
+Patching with EntityLiving.patch
+Patching with EntityLlamaSpit.patch
+Patching with EntityMinecartAbstract.patch
+Patching with EntityMinecartCommandBlock.patch
+Patching with EntityMinecartContainer.patch
+Patching with EntityMonster.patch
+Patching with EntityMushroomCow.patch
+Patching with EntityOcelot.patch
+Patching with EntityPainting.patch
+Patching with EntityParrot.patch
+Patching with EntityPig.patch
+Patching with EntityPlayer.patch
+Patching with EntityPotion.patch
+Patching with EntityProjectile.patch
+Patching with EntityRabbit.patch
+Patching with EntitySheep.patch
+Patching with EntityShulker.patch
+Patching with EntityShulkerBullet.patch
+Patching with EntitySilverfish.patch
+Patching with EntitySkeleton.patch
+Patching with EntitySkeletonAbstract.patch
+Patching with EntitySkeletonWither.patch
+Patching with EntitySlice.patch
+Patching with EntitySlime.patch
+Patching with EntitySmallFireball.patch
+Patching with EntitySnowman.patch
+Patching with EntitySpider.patch
+Patching with EntityThrownExpBottle.patch
+Patching with EntityTippedArrow.patch
+Patching with EntityTNTPrimed.patch
+Patching with EntityTracker.patch
+Patching with EntityTrackerEntry.patch
+Patching with EntityVex.patch
+Patching with EntityVillager.patch
+Patching with EntityWither.patch
+Patching with EntityWitherSkull.patch
+Patching with EntityWolf.patch
+Patching with EntityZombie.patch
+Patching with EntityZombieVillager.patch
+Patching with ExpirableListEntry.patch
+Patching with Explosion.patch
+Patching with FoodMetaData.patch
+Patching with HandshakeListener.patch
+Patching with IDataManager.patch
+Patching with IInventory.patch
+Patching with InventoryCrafting.patch
+Patching with InventoryCraftResult.patch
+Patching with InventoryEnderChest.patch
+Patching with InventoryHorseChest.patch
+Patching with InventoryLargeChest.patch
+Patching with InventoryMerchant.patch
+Patching with InventorySubcontainer.patch
+Patching with IRecipe.patch
+Patching with ItemArmor.patch
+Patching with ItemBlock.patch
+Patching with ItemBoat.patch
+Patching with ItemBow.patch
+Patching with ItemBucket.patch
+Patching with ItemChorusFruit.patch
+Patching with ItemDye.patch
+Patching with ItemEnderPearl.patch
+Patching with ItemFireball.patch
+Patching with ItemFishingRod.patch
+Patching with ItemFlintAndSteel.patch
+Patching with ItemHanging.patch
+Patching with ItemLeash.patch
+Patching with ItemMinecart.patch
+Patching with ItemMonsterEgg.patch
+Patching with ItemRecord.patch
+Patching with ItemRedstone.patch
+Patching with ItemReed.patch
+Patching with ItemSkull.patch
+Patching with ItemSnowball.patch
+Patching with ItemStack.patch
+Patching with ItemWaterLily.patch
+Patching with ItemWorldMap.patch
+Patching with JsonList.patch
+Patching with LoginListener.patch
+Patching with MerchantRecipe.patch
+Patching with MethodProfiler.patch
+Patching with MinecraftServer.patch
+Patching with MobEffectList.patch
+Patching with MobSpawnerAbstract.patch
+Patching with NameReferencingFileConverter.patch
+Patching with NetworkManager.patch
+Patching with PacketDataSerializer.patch
+Patching with PacketPlayInCloseWindow.patch
+Patching with PacketPlayOutWorldBorder.patch
+Patching with PacketStatusListener.patch
+Patching with PathfinderGoalBreakDoor.patch
+Patching with PathfinderGoalBreed.patch
+Patching with PathfinderGoalDefendVillage.patch
+Patching with PathfinderGoalEatTile.patch
+Patching with PathfinderGoalFollowOwner.patch
+Patching with PathfinderGoalHorseTrap.patch
+Patching with PathfinderGoalHurtByTarget.patch
+Patching with PathfinderGoalMakeLove.patch
+Patching with PathfinderGoalNearestAttackableTarget.patch
+Patching with PathfinderGoalNearestAttackableTargetInsentient.patch
+Patching with PathfinderGoalOwnerHurtByTarget.patch
+Patching with PathfinderGoalOwnerHurtTarget.patch
+Patching with PathfinderGoalPanic.patch
+Patching with PathfinderGoalSit.patch
+Patching with PathfinderGoalTame.patch
+Patching with PathfinderGoalTarget.patch
+Patching with PathfinderGoalTargetNearestPlayer.patch
+Patching with PathfinderGoalTempt.patch
+Patching with PathfinderGoalVillagerFarm.patch
+Patching with PlayerChunk.patch
+Patching with PlayerChunkMap.patch
+Patching with PlayerConnection.patch
+Patching with PlayerInteractManager.patch
+Patching with PlayerInventory.patch
+Patching with PlayerList.patch
+Patching with PortalTravelAgent.patch
+Patching with PropertyManager.patch
+Patching with RecipeArmorDye.patch
+Patching with RecipeBookClone.patch
+Patching with RecipeFireworks.patch
+Patching with RecipeMapClone.patch
+Patching with RecipeRepair.patch
+Patching with RecipesBanner.patch
+Patching with RecipesFurnace.patch
+Patching with RecipeShulkerBox.patch
+Patching with RecipeTippedArrow.patch
+Patching with RecipiesShield.patch
+Patching with RegionFileCache.patch
+Patching with RemoteControlCommandListener.patch
+Patching with ScoreboardServer.patch
+Patching with SecondaryWorldServer.patch
+Patching with ShapedRecipes.patch
+Patching with ShapelessRecipes.patch
+Patching with SlotFurnaceResult.patch
+Patching with SpawnerCreature.patch
+Patching with StatisticManager.patch
+Patching with TileEntity.patch
+Patching with TileEntityBanner.patch
+Patching with TileEntityBeacon.patch
+Patching with TileEntityBrewingStand.patch
+Patching with TileEntityChest.patch
+Patching with TileEntityCommand.patch
+Patching with TileEntityContainer.patch
+Patching with TileEntityDispenser.patch
+Patching with TileEntityEndGateway.patch
+Patching with TileEntityFurnace.patch
+Patching with TileEntityHopper.patch
+Patching with TileEntityNote.patch
+Patching with TileEntityShulkerBox.patch
+Patching with TileEntitySign.patch
+Patching with TileEntityStructure.patch
+Patching with UserCache.patch
+Patching with Village.patch
+Patching with VillageSiege.patch
+Patching with World.patch
+Patching with WorldBorder.patch
+Patching with WorldData.patch
+Patching with WorldGenGroundBush.patch
+Patching with WorldGenMegaTreeAbstract.patch
+Patching with WorldGenRegistration.patch
+Patching with WorldGenVillagePieces.patch
+Patching with WorldManager.patch
+Patching with WorldMap.patch
+Patching with WorldNBTStorage.patch
+Patching with WorldProviderHell.patch
+Patching with WorldServer.patch
+Compiling Bukkit
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Bukkit 1.12.2-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bukkit ---
+[INFO] Deleting /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ bukkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ bukkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ bukkit ---
+[INFO] Surefire report directory: /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 495, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 sec
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ChatPaginatorTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+Running org.bukkit.event.SyntheticEventTest
+Mar 08, 2018 2:07:58 PM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Invk org.bukkit.event.TestEvent@14dd9eb7
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.bukkit.materials.MaterialDataTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.bukkit.plugin.PluginManagerTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.037 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 924, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ bukkit ---
+[INFO] Building jar: /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/target/bukkit-1.12.2-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ bukkit ---
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.19 in the shaded jar.
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ bukkit ---
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/target/bukkit-1.12.2-R0.1-SNAPSHOT.jar to /Users/gfshupe01/.m2/repository/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-SNAPSHOT.jar
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/pom.xml to /Users/gfshupe01/.m2/repository/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-SNAPSHOT.pom
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Bukkit/target/bukkit-1.12.2-R0.1-SNAPSHOT-shaded.jar to /Users/gfshupe01/.m2/repository/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-SNAPSHOT-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.956 s
+[INFO] Finished at: 2018-03-08T14:08:00-07:00
+[INFO] Final Memory: 26M/225M
+[INFO] ------------------------------------------------------------------------
+Compiling CraftBukkit
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CraftBukkit 1.12.2-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ craftbukkit ---
+[INFO] Deleting /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/target
+[INFO] 
+[INFO] --- scriptus:0.2:describe (default) @ craftbukkit ---
+[INFO] Set property "describe" to "git-Bukkit-7e94e65"
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ craftbukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ craftbukkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ craftbukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ craftbukkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ craftbukkit ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.bukkit.ArtTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in org.bukkit.ArtTest
+[INFO] Running org.bukkit.BiomeTest
+Mar 08, 2018 2:08:11 PM org.bukkit.Bukkit setServer
+INFO: This server is running org.bukkit.support.DummyServer version null (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.245 s - in org.bukkit.BiomeTest
+[INFO] Running org.bukkit.ChatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.bukkit.ChatTest
+[INFO] Running org.bukkit.craftbukkit.generator.ChunkDataTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s - in org.bukkit.craftbukkit.generator.ChunkDataTest
+[INFO] Running org.bukkit.craftbukkit.inventory.FactoryItemMaterialTest
+[INFO] Tests run: 1644, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.26 s - in org.bukkit.craftbukkit.inventory.FactoryItemMaterialTest
+[INFO] Running org.bukkit.craftbukkit.inventory.ItemFactoryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.115 s - in org.bukkit.craftbukkit.inventory.ItemFactoryTest
+[INFO] Running org.bukkit.craftbukkit.inventory.ItemMetaCloneTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.bukkit.craftbukkit.inventory.ItemMetaCloneTest
+[INFO] Running org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest
+[INFO] Tests run: 117, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest
+[INFO] Running org.bukkit.craftbukkit.inventory.ItemMetaTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.bukkit.craftbukkit.inventory.ItemMetaTest
+[INFO] Running org.bukkit.craftbukkit.inventory.NMSCraftItemStackTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.craftbukkit.inventory.NMSCraftItemStackTest
+[INFO] Running org.bukkit.DyeColorsTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.bukkit.DyeColorsTest
+[INFO] Running org.bukkit.entity.EnderDragonPhaseTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.bukkit.entity.EnderDragonPhaseTest
+[INFO] Running org.bukkit.map.MapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.bukkit.map.MapTest
+[INFO] Running org.bukkit.MaterialTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.bukkit.MaterialTest
+[INFO] Running org.bukkit.ParticleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.bukkit.ParticleTest
+[INFO] Running org.bukkit.PerMaterialTest
+[INFO] Tests run: 6482, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.311 s - in org.bukkit.PerMaterialTest
+[INFO] Running org.bukkit.potion.PotionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.potion.PotionTest
+[INFO] Running org.bukkit.SoundTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.bukkit.SoundTest
+[INFO] Running org.bukkit.StatisticsAndAchievementsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.bukkit.StatisticsAndAchievementsTest
+[INFO] Running org.bukkit.WorldTypeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.WorldTypeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8313, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ craftbukkit ---
+[INFO] Building jar: /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/target/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ craftbukkit ---
+[INFO] Including io.netty:netty-all:jar:4.1.21.Final in the shaded jar.
+[INFO] Including org.bukkit:bukkit:jar:1.12.2-R0.1-SNAPSHOT in the shaded jar.
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.19 in the shaded jar.
+[INFO] Including org.spigotmc:minecraft-server:jar:1.12.2-SNAPSHOT in the shaded jar.
+[INFO] Including net.sf.jopt-simple:jopt-simple:jar:5.0.4 in the shaded jar.
+[INFO] Including jline:jline:jar:2.12.1 in the shaded jar.
+[INFO] Including org.xerial:sqlite-jdbc:jar:3.21.0.1 in the shaded jar.
+[INFO] Including mysql:mysql-connector-java:jar:5.1.45 in the shaded jar.
+[WARNING] minecraft-server-1.12.2-SNAPSHOT.jar, craftbukkit-1.12.2-R0.1-SNAPSHOT.jar define 581 overlapping classes: 
+[WARNING]   - net.minecraft.server.DispenserRegistry$2
+[WARNING]   - net.minecraft.server.DispenserRegistry$12
+[WARNING]   - net.minecraft.server.PathfinderGoalNearestAttackableTargetInsentient
+[WARNING]   - net.minecraft.server.BlockWaterLily
+[WARNING]   - net.minecraft.server.PathfinderGoalHurtByTarget
+[WARNING]   - net.minecraft.server.Entity$4
+[WARNING]   - net.minecraft.server.BlockGrass
+[WARNING]   - net.minecraft.server.PlayerChunkMap$5
+[WARNING]   - net.minecraft.server.EntityHorseChestedAbstract
+[WARNING]   - net.minecraft.server.Chunk$1
+[WARNING]   - 571 more...
+[WARNING] netty-all-4.1.21.Final.jar, minecraft-server-1.12.2-SNAPSHOT.jar define 2269 overlapping classes: 
+[WARNING]   - io.netty.handler.codec.http.multipart.InterfaceHttpData$HttpDataType
+[WARNING]   - io.netty.resolver.dns.InflightNameResolver$1
+[WARNING]   - io.netty.channel.AbstractChannel$AbstractUnsafe$8
+[WARNING]   - io.netty.handler.codec.smtp.DefaultSmtpRequest
+[WARNING]   - io.netty.handler.codec.redis.RedisMessage
+[WARNING]   - io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse
+[WARNING]   - io.netty.handler.timeout.IdleStateHandler
+[WARNING]   - io.netty.buffer.FixedCompositeByteBuf$Component
+[WARNING]   - io.netty.handler.codec.http.HttpHeaders
+[WARNING]   - io.netty.channel.group.ChannelMatchers$ClassMatcher
+[WARNING]   - 2259 more...
+[WARNING] minecraft-server-1.12.2-SNAPSHOT.jar, gson-2.8.0.jar define 174 overlapping classes: 
+[WARNING]   - com.google.gson.internal.bind.JsonTreeWriter
+[WARNING]   - com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl
+[WARNING]   - com.google.gson.internal.Excluder
+[WARNING]   - com.google.gson.JsonDeserializationContext
+[WARNING]   - com.google.gson.Gson$6
+[WARNING]   - com.google.gson.FieldNamingPolicy$5
+[WARNING]   - com.google.gson.internal.$Gson$Types
+[WARNING]   - com.google.gson.internal.LinkedTreeMap$KeySet
+[WARNING]   - com.google.gson.internal.UnsafeAllocator$2
+[WARNING]   - com.google.gson.internal.bind.SqlDateTypeAdapter$1
+[WARNING]   - 164 more...
+[WARNING] minecraft-server-1.12.2-SNAPSHOT.jar, guava-21.0.jar define 1837 overlapping classes: 
+[WARNING]   - com.google.common.collect.ImmutableMapValues$1
+[WARNING]   - com.google.common.io.LineProcessor
+[WARNING]   - com.google.common.util.concurrent.AbstractService$5
+[WARNING]   - com.google.common.io.BaseEncoding$StandardBaseEncoding$2
+[WARNING]   - com.google.common.io.ByteProcessor
+[WARNING]   - com.google.common.math.package-info
+[WARNING]   - com.google.common.util.concurrent.SimpleTimeLimiter
+[WARNING]   - com.google.common.cache.AbstractCache$StatsCounter
+[WARNING]   - com.google.common.util.concurrent.CycleDetectingLockFactory$Policies
+[WARNING]   - com.google.common.primitives.UnsignedInts$LexicographicalComparator
+[WARNING]   - 1827 more...
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/target/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar with /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/target/craftbukkit-1.12.2-R0.1-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ craftbukkit ---
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/target/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar to /Users/gfshupe01/.m2/repository/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit/dependency-reduced-pom.xml to /Users/gfshupe01/.m2/repository/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 27.572 s
+[INFO] Finished at: 2018-03-08T14:08:29-07:00
+[INFO] Final Memory: 25M/491M
+[INFO] ------------------------------------------------------------------------
+Rebuilding Forked projects.... 
+HEAD is now at 02f06472 Add setTarget and getTarget to Slime.
+Resetting Spigot-API to Bukkit...
+HEAD is now at 02f06472 Add setTarget and getTarget to Slime.
+  Applying patches to Spigot-API...
+fatal: Resolve operation not in progress, we are not resuming.
+Applying: POM Changes
+Applying: Skeleton API Implementations
+Applying: Spigot Timings
+Applying: Add PlayerItemDamageEvent
+Applying: BungeeCord Support
+Applying: Add Arrow API
+Applying: Add Particle API
+Applying: Define EntitySpawnEvent and SpawnerSpawnEvent
+Applying: Entity Mount and Dismount Events
+Applying: InventoryClickEvent getClickedInventory
+Applying: Added getAllSessionData() to the Conversation API.
+Applying: Player Collision API
+Applying: Expand Boolean Prompt Values
+Applying: Add Getter for Entity Invulnerability
+Applying: Add respawn API.
+Applying: Implement Locale Getter for Players
+Applying: Add support for fetching hidden players
+Applying: Silenceable Lightning API
+Applying: Remove deprecation on some player lookup methods
+Applying: Add PlayerSpawnLocationEvent.
+Applying: Ease ClassLoader Deadlocks Where Possible
+Applying: Undeprecate Player#updateInventory()V
+Applying: Added isUnbreakable and setUnbreakable to ItemMeta
+Applying: BungeeCord Chat API
+Applying: Add restart API.
+  Patches applied cleanly to Spigot-API
+From file:///Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/CraftBukkit
+ + a880e726...c1870160 patched    -> origin/patched  (forced update)
+HEAD is now at c1870160 CraftBukkit $ Thu Mar 08 14:07:52 MST 2018
+Resetting Spigot-Server to CraftBukkit...
+HEAD is now at c1870160 CraftBukkit $ Thu Mar 08 14:07:52 MST 2018
+  Applying patches to Spigot-Server...
+fatal: Resolve operation not in progress, we are not resuming.
+Applying: POM Changes
+Applying: Skeleton API Implementations
+Applying: mc-dev imports
+Applying: Obfuscation Helpers
+Applying: Spigot Configuration
+Applying: Crop Growth Rates
+Applying: Merge tweaks and configuration
+Applying: Async Operation Catching
+Applying: View Distance
+Applying: Spigot Timings
+Applying: Fix Mob Spawning Relative to View Distance
+Applying: Handle Null Tile Entities
+Applying: Item Despawn Rate
+Applying: Entity Activation Range
+Applying: Metrics
+Applying: PlayerItemDamageEvent
+Applying: Entity Tracking Ranges
+Applying: Thread Naming and Tweaks
+Applying: Close Unloaded Save Files
+Applying: Remove -o Option
+Applying: Implement Arrow API
+Applying: Hopper Customisations
+Applying: Allow Disabling of Command Logging
+Applying: Allow Disabling of Command TabComplete
+Applying: Configurable Messages
+Applying: Allow Disabling of Random Lighting Updates
+Applying: Properly Close Inventories
+Applying: Disallow Interaction With Self
+Applying: Entity Mount and Dismount Events
+Applying: Prevent Ghost Players Caused by Plugins
+Applying: Plug World Unload Memory Leak
+Applying: Player Collision API
+Applying: Fully Disable Snooper When Not Required
+Applying: Add Getter for Entity Invulnerability
+Applying: Allow Disabling of 1.6.3 Structure Saving
+Applying: Don't Special Case X Move Value
+Applying: Implement respawn API.
+Applying: Arrow Despawn Rate
+Applying: Watchdog Thread.
+Applying: Fix some chunks not being sent to the client
+Applying: Fix Broken Async Chat
+Applying: Fire PreLogin Events in Offline Mode
+Applying: BungeeCord Support
+Applying: Allow Disabling Zombie Villager Aggression
+Applying: Configurable Amount of Netty Threads
+Applying: Prevent Mineshaft Saving
+Applying: Log Cause of Unexpected Exceptions
+Applying: Particle API
+Applying: Save ticks lived to nbttag
+Applying: Add Option to Nerf Mobs from Spawners
+Applying: Disable Connected Check on setScoreboard
+Applying: Add Late Bind Option
+Applying: Allow statistics to be disabled/forced
+Applying: Try and Debug Crash Reports Crashing
+Applying: Improve AutoSave Mechanism
+Applying: Catch stalling on corrupted map data / NBT arrays.
+Applying: Allow toggling of ZombiePigmen spawning in portal blocks
+Applying: Highly Optimized Tick Loop
+Applying: Configurable Ping Sample Size
+Applying: Add Optional Tick Shuffling
+Applying: Implement Locale Getter for Players
+Applying: Spam Filter Exclusions
+Applying: Add Option to Silence CommandBlock Console
+Applying: Add support for fetching hidden players
+Applying: Allow Disabling Creative Item Filter
+Applying: Cap Channel Registrations
+Applying: Allow vanilla commands to be the main version of a command
+Applying: Implement Silenceable Lightning API
+Applying: Use one PermissibleBase for all Command Blocks
+Applying: Prevent hoppers from loading chunks
+Applying: Guard Entity List
+Applying: Fix ConcurrentModificationException while being idle kicked in a vehicle
+Applying: Cancellable WitherSkull potion effect
+Applying: Descriptive kick reasons instead of Nope!
+Applying: Configurable dragon death and wither spawn sounds
+Applying: Display 'Spigot' in client crashes, server lists and Mojang stats
+Applying: Treat Bungee as Online Mode
+Applying: Add Conversion Message
+Applying: Print Stack on InternalException
+Applying: Use Offline Player Data Once if Required.
+Applying: Use Provided Case for Non Existent Offline Players
+Applying: Check for blank OfflinePlayer Names
+Applying: Fix Player Banning
+Applying: Fix ban expire dates.
+Applying: Correct Ban Expiration
+Applying: Log null TileEntity Owner
+Applying: Convert player skulls async
+Applying: Prevent NoClassDefError crash and notify on crash
+Applying: Check Skull canPlace
+Applying: Fix race condition that could kill connections before they were initiated
+Applying: Configurable UserCache cap
+Applying: Implement PlayerSpawnLocationEvent.
+Applying: Cap Objective Score Length
+Applying: Process conversation input on the main thread. Fixes BUKKIT-5611
+Applying: Configurable save-on-stop-only for UserCache
+Applying: Prevent Unbounded IntCache Growth
+Applying: Cross World Entity Teleportation
+Applying: Limit block placement/interaction packets
+Applying: Better item validation
+Applying: Further Seed Customisation
+Applying: Disable ResourceLeakDetector
+Applying: Add More Information to session.lock Errors
+Applying: Safer JSON Loading
+Applying: Add CommandLine EULA Flag
+Applying: Fix for enchanting table wiping meta when placing stacked items
+Applying: Don't spawn bonus ocelots when plugins spawn ocelots
+Applying: Prevent a crash involving attributes
+Applying: Make "moved wrongly" limit configurable
+Applying: Fix Null Tile Entity Worlds
+Applying: Make "moved too quickly" limit configurable
+Applying: Apply NBTReadLimiter to more things.
+Applying: Allow Attribute Capping.
+Applying: Only fetch an online UUID in online mode
+Applying: Filter attribute modifiers which cause the attribute to go out of its range
+Applying: Plug WorldMap Memory Leak
+Applying: Fix Corrupted Trapped Chest
+Applying: Remove uneeded validation
+Applying: Add Hunger Config Values
+Applying: Make debug logging togglable.
+Applying: Limit TNT Detonations per tick
+Applying: Added isUnbreakable and setUnbreakable to ItemMeta
+Applying: Configurable Hanging Tick
+Applying: Refactor ItemDoor Place
+Applying: BungeeCord Chat API
+Applying: Use Standard List for EntitySlices.
+Applying: Allow Capping (Tile)Entity Tick Time.
+Applying: Use FastMatches for ItemStack Dirty Check
+Applying: Use CLQ for main thread tasks.
+Applying: map decoration fix
+Applying: Use Map for getPlayer(String) lookup.
+Applying: Clear Packet Queue on Disconnect
+Applying: Implement SpawnerSpawnEvent.
+Applying: Don't tick blocks if neighbor chunks aren't loaded
+Applying: Branchless NibbleArray
+Applying: Replace chunk loading / unloading rate throttling.
+Applying: Configurable Advancement Disabling
+Applying: Make unloaded chunk saving more asynchronous
+Applying: Allow changing minimum squid spawn range
+Applying: Cache BlockState.hashCode
+  Patches applied cleanly to Spigot-Server
+*** Spigot patches applied!
+Compiling Spigot & Spigot-API
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spigot-API
+[INFO] Spigot-Parent
+[INFO] Spigot
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spigot-API 1.12.2-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot-api ---
+[INFO] Deleting /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-API/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spigot-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-API/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ spigot-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spigot-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-API/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ spigot-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spigot-api ---
+[INFO] Surefire report directory: /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-API/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 500, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.18 sec
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.bukkit.ChatPaginatorTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running org.bukkit.event.SyntheticEventTest
+Mar 08, 2018 2:08:37 PM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Invk org.bukkit.event.TestEvent@15ff3e9e
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.212 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.bukkit.materials.MaterialDataTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.bukkit.plugin.PluginManagerTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.03 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 929, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ spigot-api ---
+[INFO] Building jar: /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-API/target/spigot-api-1.12.2-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ spigot-api ---
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.19 in the shaded jar.
+[INFO] Including net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT in the shaded jar.
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot-api ---
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-API/target/spigot-api-1.12.2-R0.1-SNAPSHOT.jar to /Users/gfshupe01/.m2/repository/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-SNAPSHOT.jar
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-API/pom.xml to /Users/gfshupe01/.m2/repository/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-SNAPSHOT.pom
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-API/target/spigot-api-1.12.2-R0.1-SNAPSHOT-shaded.jar to /Users/gfshupe01/.m2/repository/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spigot-Parent dev-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot-parent ---
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/pom.xml to /Users/gfshupe01/.m2/repository/org/spigotmc/spigot-parent/dev-SNAPSHOT/spigot-parent-dev-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spigot 1.12.2-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot ---
+[INFO] Deleting /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-Server/target
+[INFO] 
+[INFO] --- scriptus:0.2:describe (ex-spigot) @ spigot ---
+[INFO] Set property "spigot.desc" to "git-Spigot-c3093ef"
+[INFO] 
+[INFO] --- scriptus:0.2:describe (ex-craftbukkit) @ spigot ---
+[INFO] Set property "craftbukkit.desc" to "-7e94e65"
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spigot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ spigot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spigot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-Server/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ spigot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ spigot ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.bukkit.ArtTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.bukkit.ArtTest
+[INFO] Running org.bukkit.BiomeTest
+Mar 08, 2018 2:08:48 PM org.bukkit.Bukkit setServer
+INFO: This server is running org.bukkit.support.DummyServer version null (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.144 s - in org.bukkit.BiomeTest
+[INFO] Running org.bukkit.ChatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.bukkit.ChatTest
+[INFO] Running org.bukkit.craftbukkit.generator.ChunkDataTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in org.bukkit.craftbukkit.generator.ChunkDataTest
+[INFO] Running org.bukkit.craftbukkit.inventory.FactoryItemMaterialTest
+[INFO] Tests run: 1644, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.151 s - in org.bukkit.craftbukkit.inventory.FactoryItemMaterialTest
+[INFO] Running org.bukkit.craftbukkit.inventory.ItemFactoryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.289 s - in org.bukkit.craftbukkit.inventory.ItemFactoryTest
+[INFO] Running org.bukkit.craftbukkit.inventory.ItemMetaCloneTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.bukkit.craftbukkit.inventory.ItemMetaCloneTest
+[INFO] Running org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest
+[INFO] Tests run: 117, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.bukkit.craftbukkit.inventory.ItemMetaImplementationOverrideTest
+[INFO] Running org.bukkit.craftbukkit.inventory.ItemMetaTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.bukkit.craftbukkit.inventory.ItemMetaTest
+[INFO] Running org.bukkit.craftbukkit.inventory.NMSCraftItemStackTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.bukkit.craftbukkit.inventory.NMSCraftItemStackTest
+[INFO] Running org.bukkit.DyeColorsTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.bukkit.DyeColorsTest
+[INFO] Running org.bukkit.entity.EnderDragonPhaseTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.bukkit.entity.EnderDragonPhaseTest
+[INFO] Running org.bukkit.map.MapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.bukkit.map.MapTest
+[INFO] Running org.bukkit.MaterialTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.bukkit.MaterialTest
+[INFO] Running org.bukkit.NibbleArrayTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.bukkit.NibbleArrayTest
+[INFO] Running org.bukkit.ParticleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.bukkit.ParticleTest
+[INFO] Running org.bukkit.PerMaterialTest
+[INFO] Tests run: 6482, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.386 s - in org.bukkit.PerMaterialTest
+[INFO] Running org.bukkit.potion.PotionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.potion.PotionTest
+[INFO] Running org.bukkit.SoundTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.bukkit.SoundTest
+[INFO] Running org.bukkit.StatisticsAndAchievementsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.bukkit.StatisticsAndAchievementsTest
+[INFO] Running org.bukkit.WorldTypeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.WorldTypeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8314, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ spigot ---
+[INFO] Building jar: /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-Server/target/spigot-1.12.2-R0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ spigot ---
+[INFO] Including io.netty:netty-all:jar:4.1.21.Final in the shaded jar.
+[INFO] Including org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT in the shaded jar.
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.19 in the shaded jar.
+[INFO] Including net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT in the shaded jar.
+[INFO] Including org.spigotmc:minecraft-server:jar:1.12.2-SNAPSHOT in the shaded jar.
+[INFO] Including net.sf.jopt-simple:jopt-simple:jar:5.0.4 in the shaded jar.
+[INFO] Including jline:jline:jar:2.12.1 in the shaded jar.
+[INFO] Including org.xerial:sqlite-jdbc:jar:3.21.0.1 in the shaded jar.
+[INFO] Including mysql:mysql-connector-java:jar:5.1.45 in the shaded jar.
+[INFO] Including net.sf.trove4j:trove4j:jar:3.0.3 in the shaded jar.
+[WARNING] minecraft-server-1.12.2-SNAPSHOT.jar, spigot-1.12.2-R0.1-SNAPSHOT.jar define 625 overlapping classes: 
+[WARNING]   - net.minecraft.server.DispenserRegistry$2
+[WARNING]   - net.minecraft.server.DispenserRegistry$12
+[WARNING]   - net.minecraft.server.PathfinderGoalNearestAttackableTargetInsentient
+[WARNING]   - net.minecraft.server.BlockWaterLily
+[WARNING]   - net.minecraft.server.PathfinderGoalHurtByTarget
+[WARNING]   - net.minecraft.server.Entity$4
+[WARNING]   - net.minecraft.server.BlockGrass
+[WARNING]   - net.minecraft.server.PlayerChunkMap$5
+[WARNING]   - net.minecraft.server.EntityHorseChestedAbstract
+[WARNING]   - net.minecraft.server.Chunk$1
+[WARNING]   - 615 more...
+[WARNING] netty-all-4.1.21.Final.jar, minecraft-server-1.12.2-SNAPSHOT.jar define 2269 overlapping classes: 
+[WARNING]   - io.netty.handler.codec.http.multipart.InterfaceHttpData$HttpDataType
+[WARNING]   - io.netty.resolver.dns.InflightNameResolver$1
+[WARNING]   - io.netty.channel.AbstractChannel$AbstractUnsafe$8
+[WARNING]   - io.netty.handler.codec.smtp.DefaultSmtpRequest
+[WARNING]   - io.netty.handler.codec.redis.RedisMessage
+[WARNING]   - io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse
+[WARNING]   - io.netty.handler.timeout.IdleStateHandler
+[WARNING]   - io.netty.buffer.FixedCompositeByteBuf$Component
+[WARNING]   - io.netty.handler.codec.http.HttpHeaders
+[WARNING]   - io.netty.channel.group.ChannelMatchers$ClassMatcher
+[WARNING]   - 2259 more...
+[WARNING] minecraft-server-1.12.2-SNAPSHOT.jar, gson-2.8.0.jar define 174 overlapping classes: 
+[WARNING]   - com.google.gson.internal.bind.JsonTreeWriter
+[WARNING]   - com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl
+[WARNING]   - com.google.gson.internal.Excluder
+[WARNING]   - com.google.gson.JsonDeserializationContext
+[WARNING]   - com.google.gson.Gson$6
+[WARNING]   - com.google.gson.FieldNamingPolicy$5
+[WARNING]   - com.google.gson.internal.$Gson$Types
+[WARNING]   - com.google.gson.internal.LinkedTreeMap$KeySet
+[WARNING]   - com.google.gson.internal.UnsafeAllocator$2
+[WARNING]   - com.google.gson.internal.bind.SqlDateTypeAdapter$1
+[WARNING]   - 164 more...
+[WARNING] minecraft-server-1.12.2-SNAPSHOT.jar, guava-21.0.jar define 1837 overlapping classes: 
+[WARNING]   - com.google.common.collect.ImmutableMapValues$1
+[WARNING]   - com.google.common.io.LineProcessor
+[WARNING]   - com.google.common.util.concurrent.AbstractService$5
+[WARNING]   - com.google.common.io.BaseEncoding$StandardBaseEncoding$2
+[WARNING]   - com.google.common.io.ByteProcessor
+[WARNING]   - com.google.common.math.package-info
+[WARNING]   - com.google.common.util.concurrent.SimpleTimeLimiter
+[WARNING]   - com.google.common.cache.AbstractCache$StatsCounter
+[WARNING]   - com.google.common.util.concurrent.CycleDetectingLockFactory$Policies
+[WARNING]   - com.google.common.primitives.UnsignedInts$LexicographicalComparator
+[WARNING]   - 1827 more...
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-Server/target/spigot-1.12.2-R0.1-SNAPSHOT.jar with /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-Server/target/spigot-1.12.2-R0.1-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-Server/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot ---
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-Server/target/spigot-1.12.2-R0.1-SNAPSHOT.jar to /Users/gfshupe01/.m2/repository/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/spigot-1.12.2-R0.1-SNAPSHOT.jar
+[INFO] Installing /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/Spigot/Spigot-Server/dependency-reduced-pom.xml to /Users/gfshupe01/.m2/repository/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/spigot-1.12.2-R0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spigot-API ......................................... SUCCESS [  6.042 s]
+[INFO] Spigot-Parent ...................................... SUCCESS [  0.041 s]
+[INFO] Spigot ............................................. SUCCESS [ 28.243 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 34.421 s
+[INFO] Finished at: 2018-03-08T14:09:07-07:00
+[INFO] Final Memory: 27M/514M
+[INFO] ------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Success! Everything compiled successfully. Copying final .jar files now.
+Copying craftbukkit-1.12.2-R0.1-SNAPSHOT.jar to /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/./craftbukkit-1.12.2.jar
+  - Saved as ./craftbukkit-1.12.2.jar
+Copying spigot-1.12.2-R0.1-SNAPSHOT.jar to /Users/gfshupe01/IdeaProjects/SpigotPlugin/BuildTools/./spigot-1.12.2.jar
+  - Saved as ./spigot-1.12.2.jar
